@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'StaryFont';
+    src: url('fontymuffin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border: double yellow 5px;
+    background: orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+body {
+    font-family: StaryFont, sans-serif;
+    background: red;
+}
+#pet {
+    background: white;
+    border: double yellow 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn {
+    background: yellow;
+    border: red double 5px;
+    border-radius: 5px;
+}
