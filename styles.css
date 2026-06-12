@@ -4,7 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
-.page {
+.Page {
     margin-left: auto;
     margin-right: auto;
     width: 50%; 
@@ -17,7 +17,7 @@ body {
     font-family: StaryFont, sans-serif;
     background: red;
 }
-#pet {
+.pet {
     background: white;
     border: double yellow 5px;
     border-radius: 10px;
@@ -27,4 +27,13 @@ body {
     background: yellow;
     border: red double 5px;
     border-radius: 5px;
+}
+.FoodBtn {
+    background: white;
+    border: blue double 5px;
+    border-radius: 5px;
+}
+#foods {
+    margin-bottom: 10px;
+    display: none;
 }
