@@ -4,15 +4,22 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="page">
-            <div id="pet">
+        <div id="Selections" class="Page">
+            <h1> Choose Your Pet: </h1>
+            <button class="btn" onclick="choiceCat()"> Cat </button>
+            <button class="btn" onclick="choiceDragon()"> Dragon </button>
+            <button class="btn" onclick="choiceBunny()"> Bunny </button>
+        </div>
+        <div id="Main">
+        <div class="Page">
+            <div id="petDragon" class="pet">
                 <pre id="egg">
                        _
                      (   )
                     (     )
                      ( _ )
                 </pre>  
-                <pre id="Baby">
+                <pre id="Kid">
                    /\/\  /\/\
                 <>|  \ \/ • _)
                 /\\___\/   /
@@ -28,11 +35,84 @@
                    U U    U U
                 </pre>
             </div>
+            <div id="petCat" class="pet">
+                <pre id="kitten">
+                     /^—^\
+                  /\(  •• )
+                  \______/
+                       
+                </pre> 
+                <pre id="Baby">
+                 /\  /^—^\
+                 \/ (  •• )
+                 /\/    /
+                 \_____/      
+                </pre>  
+                <pre id="cat">
+                 /\  /^—^\
+                 \/ (  •• )
+                 /\_/    /
+                 \______/  
+                  UU  UU
+                </pre>
+                
+            </div>
+            <div id="petBunny" class="pet">
+                <pre id="Bunny">
+                     (\/)
+                    ( •.•) 
+                   o((")(")
+                </pre> 
+                <pre id="Kit">
+                     (\/)
+                    ( •.•) 
+                    (  UU)
+                   0((")(")
+                </pre>  
+                <pre id="Rabbit">
+                    (\  /)
+                     \\//
+                    ( •.•) 
+                    (  UU)
+                   0((")(")
+                </pre>
+                
+            </div>
+            <!--<div id="Dog" class="pet">
+                <pre id="kitten">
+                    /\   /U——U\
+                    \ \_/  •• _) 
+                     \_______/
+                </pre> 
+                <pre id="Baby">
+                    /\   /U——U\
+                    \ \_/  •• _) 
+                     \       /
+                     |______/
+                      U U UU
+                </pre>  
+                <pre id="cat">
+                    /\   /U——U\
+                    \ \_/  •• _) 
+                     \_______/
+                </pre>
+                
+            </div>-->
             <p> Hunger: </p><p id="Hunger"> 0 </p>
             <p> Boredom: </p><p id="Boredom"> 0 </p>
             <p> Tiredness: </p><p id="Tiredness"> 0 </p>
-            <button onclick="feed()" class="btn"> Feed </button> <button onclick="play()" class="btn"> Play </button> <button onclick="sleep()" class="btn"> Sleep </button> <button class="btn"> Save! </button>
-        <div>
+            <p> Gems💎: </p><p id="gems"> 0 </p>
+            <div id="foods">
+                <button class="FoodBtn" onclick="fish1()"> 🐟 </button>
+                <button class="FoodBtn" onclick="exp1()"> 🧨 </button>
+                <button class="FoodBtn" onclick="vege1()"> 🥬 </button>
+                <button class="FoodBtn" onclick="fish2()"> 🐠 </button>
+                <button class="FoodBtn" onclick="vege2()"> 🥕 </button>
+                <button class="FoodBtn" onclick="exp2()"> 💣 </button>
+            </div>
+            <button onclick="feed()" class="btn"> Feed </button> <button onclick="play()" class="btn"> Play </button> <button onclick="sleep()" class="btn"> Sleep </button> <button class="btn"> Save! </button> <button class="btn" onclick="pause()"> Pause </button> 
+        </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
